@@ -161,9 +161,10 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.haptic.Roboticus
-    iOS: com.haptic.Roboticus
-  buildNumber: {}
-  AndroidBundleVersionCode: 1
+    iOS: com.haptic.Roboticus2
+  buildNumber:
+    iOS: 1
+  AndroidBundleVersionCode: 3
   AndroidMinSdkVersion: 19
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1
@@ -252,7 +253,7 @@ PlayerSettings:
   AndroidTargetArchitectures: 5
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: user.keystore
+  AndroidKeystoreName: /Users/zhenyabezginova/Documents/TheUniverseOfRobots Android/roboticus.keystore
   AndroidKeyaliasName: roboticus
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0

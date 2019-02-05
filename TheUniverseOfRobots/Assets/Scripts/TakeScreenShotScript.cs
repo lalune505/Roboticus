@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.IO;
-using NatShareU;
+//using NatShareU;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -61,7 +61,7 @@ public class TakeScreenShotScript : MonoBehaviour
         screenImage.ReadPixels(new Rect(0, 0, Screen.width, Screen.height), 0, 0);
         screenImage.Apply();
 
-        NatShare.SaveToCameraRoll(screenImage);
+        //NatShare.SaveToCameraRoll(screenImage);
 
 
         //GameObject.Find("MainCanvas").GetComponent<Canvas>().enabled = true;

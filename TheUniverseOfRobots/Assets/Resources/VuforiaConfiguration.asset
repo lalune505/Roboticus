@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: AWcnQ8P/////AAAACLlGdz4kN0Pso67wnRCzflKGZE3bJGCwdHl9O/b4zLvmLYtk1nvOec2NDzJwzaNlRsEQS0bHTGyiidhjR0jGDEUMGFTf5ddvLukuKoL3SUIdAd9Tpvfj7iiGB6fy2CdKZtmuscujidRlgV4bYJnC4NZeie3X+5jo9AV07ZK+6wGly/VMkN4Qn7jYwbAv7Vsmn1fZDRiW1AUqFluOGPLlqDpskZffC/b4ZKoqLd7Q81hI+GSFByTtUkl0nnst0CBhm5O1DJby/eY/rYjIjaDZE1xOC4+xE/GlrmJq1W0BSr5Gx4FqQtb9AIt6Xq+yopvxVHp0nI62TNlwfjxifbCLpO5tZsbUHuK5Sas3lmi/bqZg
+    vuforiaLicenseKey: AQdyeIj/////AAABmWc2nlB9AEJVkONMo0RM6X5W2OXF65rhcOYT6Jc7ovPeQqRLd7Cj0oUb0PrdKGpxD5TPzqwpxX+LK43Yw22EVqDQI9wWILjAg5sbOUYe1UVPkmVo10KYIl1DktenaLdHVZj2lH4Az7D992paDx9hl0hDZOaPL0fUChf2bLnGjTLI6mbm6ZvD4EBldZQK3FPtgxJLfpYUk53LTkWAk1l/TM+vgY90Z2/EIlPlTEQKnJ0zoksonyhUs0hGBJxsUW4duEniPB41s3t2eA2EzNjcn2R4BdOc6a6D8EypxPolswVZ+e+ieB7QQfMwRVjl6USiI43JuT+JM2eoeIT2FCnnJJDa1j95m/Ee8sOz4ED5pCd/
     ufoLicenseKey: QWJWUzFONy8vLy8vQUFBQUtKWWZaSjU5TVU2WXNKelR4dGw3aXBnOXVmdC9JUmN0YUY2cTVQdzcrMXZTWjRRYkx1b2p4UHNNcFREcStmRnFQTDlabmo1MEw5Vm1pcC9FaDhmWm5MSlRpQWx4SWJKNXBVQURzMHJYaWd2SHh2c3FkZlAzNjd2NmtUUkxGMkdBOUxNcVR1Zkp3eGh6ZkpPbktQWU83UGJycGNOa0tkZ2RtcWdIcDFPM3FvaGxiNlUwQmhCa1FETUs1cFRVT3FEZ2wxa0FudTdKYUFtRUJENmNIVEtrMTlqVVdpaFdHZGJ6eUwyQ1BNekxOblNxVnlZNmhmcjY1RFd6RnBTOXllVVU0ZUhsK01oVzVxTFBYYTZjb2NkN1A0b2hvYXJ6Z1JRTng3Rk1idnFEMnpVWVBhZG93UThpUlY3WXFnZzdCK1czVjFaVEt5VkYxTDExcHkyNWxRdURkOWRVbjlUZjhuUWhnTytpVDkxV2hjRlE=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
@@ -59,7 +59,7 @@ MonoBehaviour:
     modelCorrectionMode: 0
     modelTransformEnabled: 0
     modelTransform: {x: 0, y: 0.1, z: -0.1}
-    fusionMode: 7
+    fusionMode: 5
   smartTerrain:
     autoInitTracker: 0
     autoStartTracker: 0

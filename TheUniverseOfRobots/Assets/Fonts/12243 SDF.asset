@@ -4,7 +4,8 @@
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -18,7 +19,7 @@ MonoBehaviour:
   m_fontInfo:
     Name: asinastra
     PointSize: 159
-    Scale: 1
+    Scale: 0
     CharacterCount: 145
     LineHeight: 182.9375
     Baseline: 0
@@ -33,11 +34,11 @@ MonoBehaviour:
     UnderlineThickness: 11.645508
     strikethrough: 36.659092
     strikethroughThickness: 11.645508
-    TabWidth: 397.5
+    TabWidth: 0
     Padding: 9
     AtlasWidth: 1024
     AtlasHeight: 1024
-  atlas: {fileID: 28119616078584014}
+  atlas: {fileID: 28363324917835262}
   m_glyphInfoList:
   - id: 1025
     x: 502
@@ -1371,7 +1372,7 @@ MonoBehaviour:
     atlasWidth: 1024
     atlasHeight: 1024
     characterSetSelectionMode: 6
-    characterSequence: 400-4FF
+    characterSequence: 384-591
     referencedFontAssetGUID: 
     referencedTextAssetGUID: 
     fontStyle: 0
@@ -1410,7 +1411,8 @@ Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: 12243 SDF Material
   m_Shader: {fileID: 4800000, guid: 68e6db2ebdc24f95958faec2be5558d6, type: 3}
   m_ShaderKeywords: 
@@ -1436,7 +1438,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 28119616078584014}
+        m_Texture: {fileID: 28363324917835262}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OutlineTex:
@@ -1504,11 +1506,12 @@ Material:
     - _ReflectOutlineColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
     - _UnderlayColor: {r: 0, g: 0, b: 0, a: 0.5}
---- !u!28 &28119616078584014
+--- !u!28 &28363324917835262
 Texture2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: 12243 SDF Atlas
   m_ImageContentsHash:
     serializedVersion: 2

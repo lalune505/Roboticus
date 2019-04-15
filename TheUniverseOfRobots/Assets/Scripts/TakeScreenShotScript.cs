@@ -21,6 +21,8 @@ public class TakeScreenShotScript : MonoBehaviour
     private Texture2D screenImage;
 
     public Animator animator;
+
+    public AudioSource audioFlash;
     // Use this for initialization
     void Start()
     {
@@ -35,6 +37,7 @@ public class TakeScreenShotScript : MonoBehaviour
 
     public void TakeScreenShot()
     {
+        audioFlash.Play();
         _Flash.CameraFlash();
         _InputController.SetActive(false);
         animator.SetTrigger("HideOnFlash");
@@ -68,6 +71,8 @@ public class TakeScreenShotScript : MonoBehaviour
 
 
         previewImage.texture = screenImage;
+
+      
 
         yield return new WaitForSeconds(0.5f);
 

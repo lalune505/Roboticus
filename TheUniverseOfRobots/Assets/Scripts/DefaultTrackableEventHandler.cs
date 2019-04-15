@@ -6,6 +6,7 @@ All Rights Reserved.
 Confidential and Proprietary - Protected under copyright and other laws.
 ==============================================================================*/
 
+using System.Collections.Generic;
 using UnityEngine;
 using Vuforia;
 
@@ -17,11 +18,19 @@ using Vuforia;
 /// </summary>
 public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandler
 {
+ 
+
     #region PROTECTED_MEMBER_VARIABLES
 
     protected TrackableBehaviour mTrackableBehaviour;
     protected TrackableBehaviour.Status m_PreviousStatus;
     protected TrackableBehaviour.Status m_NewStatus;
+     
+    [SerializeField]
+    private List<Animation> AnimOnTargetFound;
+
+    [SerializeField]
+    private GameObject Panel;
 
     #endregion // PROTECTED_MEMBER_VARIABLES
 
@@ -87,6 +96,12 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         var colliderComponents = GetComponentsInChildren<Collider>(true);
         var canvasComponents = GetComponentsInChildren<Canvas>(true);
 
+        Panel.SetActive(false);
+
+        foreach (var item in AnimOnTargetFound) {
+            item.Play();
+        }
+            
         // Enable rendering:
         foreach (var component in rendererComponents)
             component.enabled = true;
@@ -98,11 +113,18 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         // Enable canvas':
         foreach (var component in canvasComponents)
             component.enabled = true;
+
+       
     }
 
 
     protected virtual void OnTrackingLost()
     {
+
+        foreach (var item in AnimOnTargetFound)
+        {
+            item.Stop();
+        }
         var rendererComponents = GetComponentsInChildren<Renderer>(true);
         var colliderComponents = GetComponentsInChildren<Collider>(true);
         var canvasComponents = GetComponentsInChildren<Canvas>(true);
